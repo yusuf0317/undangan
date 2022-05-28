@@ -29,6 +29,7 @@ export default class Document extends NextDocument {
         </Head>
         <body>
           <Script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></Script>
+          
         </body>
         <Main />
         <NextScript />
