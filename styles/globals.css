@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.balthazar{
+  font-family: 'Balthazar', serif;
+}
+.birthstone{
+  font-family: 'Birthstone Bounce', cursive;
+}
+.roboto{
+  font-family: 'Roboto', sans-serif;
+}
+.atma{
+  font-family: 'Atma', cursive;
+}
+.cormorant{
+  font-family: 'Cormorant Infant', serif;
+}
+.rouge{
+  font-family: 'Rouge Script', cursive;
+}
+.pinyon{
+  font-family: 'Pinyon Script', cursive;
+}
+.footer{
+  background-color: rgba(255, 255, 255, 0.518);
+}
+.inter{
+  font-family: 'Inter', sans-serif;
+}
+
+.scroll-downs {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  margin-top: 450px;
+  width :11px;
+  height: 55px;
+}
+.mousey {
+  width: 3px;
+  padding: 7px 8px;
+  height: 20px;
+  border: 2px solid black;
+  border-radius: 25px;
+  opacity: 0.75;
+  box-sizing: content-box;
+}
+.scroller {
+  width: 2px;
+  height: 10px;
+  border-radius: 25%;
+  background-color: black;
+  animation-name: scroll;
+  animation-duration: 2.2s;
+  animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+  animation-iteration-count: infinite;
+}
+@keyframes scroll {
+  0% { opacity: 0; }
+  10% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(15px); opacity: 0;}
+}
