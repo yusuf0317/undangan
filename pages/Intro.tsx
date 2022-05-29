@@ -26,9 +26,9 @@ export default function Intro() {
             <Image src={flowers} alt="flowers" />
           </div>
           <div data-aos="zoom-in" data-aos-delay="50" data-aos-duration="3000">
-            <span className="birthstone text-[64px] text-[#E0C1AD]">Kiah </span>
-            <span className="birthstone text-[64px] text-[#E0C1AD]">&</span>
-            <span className="birthstone text-[64px] text-[#E0C1AD]">Dani</span>
+            <span className="birthstone text-[64px] text-[#B3B3B3]">Kiah </span>
+            <span className="birthstone text-[64px] text-[#B3B3B3]">&</span>
+            <span className="birthstone text-[64px] text-[#B3B3B3]">Dani</span>
           </div>
           <p className="balthazar text-[20px] text-white">05.06.2022</p>
           <div className="my-4">
