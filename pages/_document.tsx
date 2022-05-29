@@ -14,7 +14,6 @@ export default class Document extends NextDocument {
   }
   render() {
     return (
-      <div>
         <Html lang="en">
         <Head>
           <title>Dani & Kiah</title>
@@ -34,7 +33,6 @@ export default class Document extends NextDocument {
         <Main />
         <NextScript />
       </Html>
-      </div>
     );
   }
 }

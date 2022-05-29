@@ -25,11 +25,17 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import ReactAudioPlayer from "react-audio-player";
 import Script from "next/script";
+import { useCountdown } from "../component/useCountdown";
 
 export default function User() {
+
+  const [days, hours, minutes, seconds] = useCountdown("2022-06-05");
+
   useEffect(() => {
     AOS.init();
-    AOS.refresh();
+   AOS.refresh();
+
+
   }, []);
   return (
     <div className="flex justify-center" id="home">
@@ -238,7 +244,7 @@ export default function User() {
             >
               <Image src={flower6}  alt="flower6"/>
               <div className="inset-0 absolute mt-[65px]">
-                <p className="atma font-[400] text-[32px] text-white">6</p>
+                <p className="atma font-[400] text-[32px] text-white">{days}</p>
                 <p
                   className="atma font-[700]
                             text-[22px] text-white"
@@ -251,7 +257,7 @@ export default function User() {
               <div
                 className="leading-6 text-white"
               >
-                <p className="atma text-[20px] font-[400]">20</p>
+                <p className="atma text-[20px] font-[400]">{hours}</p>
                 <p
                   className="atama text-[20px]
                             font-[500]"
@@ -262,7 +268,7 @@ export default function User() {
               <div
                 className="leading-6 text-white"
               >
-                <p className="atma text-[20px] font-[400]">20</p>
+                <p className="atma text-[20px] font-[400]">{minutes}</p>
                 <p
                   className="atama text-[20px]
                             font-[500]"
@@ -273,7 +279,7 @@ export default function User() {
               <div
                 className="leading-6 text-white"
               >
-                <p className="atma text-[20px] font-[400]">20</p>
+                <p className="atma text-[20px] font-[400]">{seconds}</p>
                 <p
                   className="atama text-[20px]
                             font-[500]"
