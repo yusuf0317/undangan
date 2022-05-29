@@ -189,7 +189,7 @@ export default function User() {
               <p className="cormorant leading-[14.53px] text-[12px] text-center">
                 Putra ke-2 dari
                 <br />
-                Bpk. Bentong Supendi(Allahuyarham) & Ibu Onih
+                Bpk. Bentong Supendi (Allahuyarham) & Ibu Onih
               </p>
             </div>
             <div className="mt-32 absolute">
