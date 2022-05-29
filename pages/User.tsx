@@ -338,11 +338,11 @@ export default function User() {
           </div>
           <div className="pb-24 pt-10 flex justify-center">
             <div className="flex justify-between mx-10">
-              <a href="https://www.instagram.com/bluegrey.digital/" className="flex">
+              <a href="https://www.instagram.com/bluegrey.digital/" className="flex justify-center w-[120px]">
                 <div className="text-lg">
                 <i className='bx bxl-instagram'></i>
                 </div>
-                <p className="text-center inter text-[12px] mt-1">
+                <p className="text-[12px] mt-[3px]">
                   @bluegrey.digital
                 </p>
               </a>
