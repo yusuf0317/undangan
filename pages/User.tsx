@@ -225,7 +225,7 @@ export default function User() {
               Acara akan diselenggarakan
             </p>
             <p
-              className="roboto font-[400] text-[#B4B4B4]"
+              className="atma font-bold text-[#B4B4B4]"
             >
               <i>Ahad, 05 . 06 .22</i>
             </p>
@@ -238,7 +238,7 @@ export default function User() {
             >
               <Image src={flower6}  alt="flower6"/>
               <div className="inset-0 absolute mt-[65px]">
-                <p className="atma font-[400] text-[32px] text-white">14</p>
+                <p className="atma font-[400] text-[32px] text-white">6</p>
                 <p
                   className="atma font-[700]
                             text-[22px] text-white"
@@ -331,7 +331,7 @@ export default function User() {
                 </div>
                 <Image src={rantai} alt="rantai"/>
                 <p className="rouge font-[400] text-[30px] text-[#5B5B5B] mt-4">
-                  Akad Nikah
+                 Resepsi
                 </p>
                 <p className="roboto font-bold text-[15px]">05 . 06 .22</p>
                 <p className="cormorant text-[15px]">10.00 : Selesai WIB</p>
@@ -379,7 +379,7 @@ export default function User() {
             </div>
             <div className="flex justify-between mx-10">
               <div>
-                <div className="text-3xl flex justify-center">
+                <div className="text-lg flex justify-center">
                   <BsInstagram />
                 </div>
                 <p className="text-center inter text-[12px] mt-1">
@@ -387,7 +387,7 @@ export default function User() {
                 </p>
               </div>
               <a href="https://boxicons.com/?query=wha">
-                <a className="text-3xl flex justify-center">
+                <a className="text-xl flex justify-center">
                   <IoLogoWhatsapp />
                 </a>
                 <p className="text-center inter text-[12px] mt-1">
