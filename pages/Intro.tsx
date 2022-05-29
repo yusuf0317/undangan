@@ -47,7 +47,7 @@ export default function Intro() {
           </p>
           <p className="roboto text-[10px] font-[400] text-white">
             Tanpa mengurangi rasa hormat, kami
-            <br /> Mengundang anda dia acara Pernikahan kami
+            <br /> mengundang Anda di acara pernikahan kami.
           </p>
           <Link href="/User">
             <button
