@@ -296,7 +296,7 @@ export default function User() {
                     Akad Nikah
                   </p>
                   <p className="roboto font-bold text-[15px]">05 . 06 .22</p>
-                  <p className="cormorant text-[15px]">09.00 : 10.00 WIB</p>
+                  <p className="cormorant text-[15px]">09.00 - 10.00 WIB</p>
                 </div>
                 <Image src={rantai} alt="rantai" />
                 <p className="rouge font-[400] text-[30px] text-[#5B5B5B] mt-4">
@@ -311,7 +311,7 @@ export default function User() {
                 <button className="border-2 border-black  rounded-3xl px-4 py-[1px] mt-4">
                   <a
                     className="flex justify-between items-center"
-                    href="https://goo.gl/maps/SvE9SynwGUYerPTd8"
+                    href="https://maps.app.goo.gl/18zUaLm4EGnohJo1A"
                   >
                     <div className="mr-2">
                       <FiMapPin />
@@ -381,7 +381,7 @@ export default function User() {
                 to="love"
                 spy={true}
                 smooth={true}
-                duration={500}
+                duration={1000}
                 offset={50}
                 activeClass="bg-[#5B5B5B] pt-4 pb-[2px] px-2 rounded-lg text-white"
                 className="pt-4 pb-[2px] px-2"
@@ -394,7 +394,7 @@ export default function User() {
                 to="date"
                 spy={true}
                 smooth={true}
-                duration={500}
+                duration={1000}
                 activeClass="bg-[#5B5B5B] pt-4 pb-[2px] px-2 rounded-lg text-white"
                 className="pt-4 pb-[2px] px-2"
               >
@@ -408,10 +408,7 @@ export default function User() {
                 smooth={true}
                 hashSpy={true}
                 offset={50}
-                duration={1500}
-                delay={300}
-                isDynamic={true}
-                ignoreCancelEvents={false}
+                duration={1000}
                 activeClass="bg-[#5B5B5B] pt-4 pb-[2px] px-2 rounded-lg text-white"
                 className="pt-4 pb-[2px] px-2"
               >
