@@ -46,11 +46,9 @@ export default function User() {
                 <Image src={flower1} alt="flower1" />
               </div>
               <div className="mt-4 mr-6 fixed flex ml-80 z-50">
-                <button className="bg-[#5B5B5B] p-[5px] rounded-3xl">
-                  <span className="text-white ">
-                    <IoMdMusicalNote />
-                  </span>
-                </button>
+                  <a href="https://wa.link/687m6w" className="text-white bg-[#5B5B5B] pt-[1px] px-[5px] rounded-3xl">
+                    <i className='bx bxl-whatsapp' ></i>
+                  </a>
               </div>
             </div>
             <div className="text-center -mt-32">
@@ -206,7 +204,7 @@ export default function User() {
               Acara akan diselenggarakan
             </p>
             <p className="atma font-bold text-[#B4B4B4]">
-              <i>Ahad, 05 . 06 .22</i>
+              <i>Ahad, 05 . 06 . 22</i>
             </p>
             <div
               className="relative"
@@ -295,15 +293,15 @@ export default function User() {
                   <p className="rouge font-[400] text-[30px] text-[#5B5B5B]">
                     Akad Nikah
                   </p>
-                  <p className="roboto font-bold text-[15px]">05 . 06 .22</p>
+                  <p className="roboto font-bold text-[15px]">05 . 06 . 22</p>
                   <p className="cormorant text-[15px]">09.00 - 10.00 WIB</p>
                 </div>
                 <Image src={rantai} alt="rantai" />
                 <p className="rouge font-[400] text-[30px] text-[#5B5B5B] mt-4">
                   Resepsi
                 </p>
-                <p className="roboto font-bold text-[15px]">05 . 06 .22</p>
-                <p className="cormorant text-[15px]">10.00 : Selesai WIB</p>
+                <p className="roboto font-bold text-[15px]">05 . 06 . 22</p>
+                <p className="cormorant text-[15px]">10.00 - Selesai WIB</p>
                 <p className="cormorant font-[400] text-[16px] mt-6">
                   Jl. Tangkil RT 01/05 Desa Sukaluyu, Kec. Tamansari, Kab.
                   Bogor, Jawa Barat 16610
@@ -338,25 +336,14 @@ export default function User() {
               </p>
             </div>
           </div>
-          <div className="pb-24">
-            <div className="text-center mt-2">
-              <Image src={flower9} alt="flower9" />
-            </div>
+          <div className="pb-24 pt-10 flex justify-center">
             <div className="flex justify-between mx-10">
-              <div>
-                <div className="text-lg flex justify-center">
-                  <BsInstagram />
+              <a href="https://www.instagram.com/bluegrey.digital/" className="flex">
+                <div className="text-lg">
+                <i className='bx bxl-instagram'></i>
                 </div>
                 <p className="text-center inter text-[12px] mt-1">
                   @bluegrey.digital
-                </p>
-              </div>
-              <a href="https://boxicons.com/?query=wha">
-                <a className="text-xl flex justify-center">
-                  <IoLogoWhatsapp />
-                </a>
-                <p className="text-center inter text-[12px] mt-1">
-                  +62 815-7497-2872
                 </p>
               </a>
             </div>
