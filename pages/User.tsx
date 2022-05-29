@@ -46,7 +46,7 @@ export default function User() {
                 <Image src={flower1} alt="flower1" />
               </div>
               <div className="mt-4 mr-6 fixed flex ml-80 z-50">
-                  <a href="https://wa.link/687m6w" className="text-white bg-[#5B5B5B] pt-[1px] px-[5px] rounded-3xl">
+                  <a href="https://wa.link/687m6w" className="text-white bg-[#5B5B5B] pt-[2px] px-[5px] rounded-3xl">
                     <i className='bx bxl-whatsapp' ></i>
                   </a>
               </div>
