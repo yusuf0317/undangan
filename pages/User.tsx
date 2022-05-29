@@ -28,30 +28,25 @@ import Script from "next/script";
 import { useCountdown } from "../component/useCountdown";
 
 export default function User() {
-
   const [days, hours, minutes, seconds] = useCountdown("2022-06-05");
 
   useEffect(() => {
     AOS.init();
-   AOS.refresh();
-
-
+    AOS.refresh();
   }, []);
   return (
     <div className="flex justify-center" id="home">
-    <Script src="https://third-party-script.js"></Script>
+      <Script src="https://third-party-script.js"></Script>
       <div className="max-w-[400px] min-w-[360px] h-[800px]">
         <div className="relative">
-          <Image src={Header1} alt="header1"/>
+          <Image src={Header1} alt="header1" />
           <div className="inset-0 absolute">
             <div className=" flex justify-between">
               <div>
                 <Image src={flower1} alt="flower1" />
               </div>
               <div className="mt-4 mr-6 fixed flex ml-80 z-50">
-                <button
-                  className="bg-[#5B5B5B] p-[5px] rounded-3xl"
-                >
+                <button className="bg-[#5B5B5B] p-[5px] rounded-3xl">
                   <span className="text-white ">
                     <IoMdMusicalNote />
                   </span>
@@ -112,9 +107,7 @@ export default function User() {
             <div className="relative -mt-44 z-10">
               <Image src={Footer1} alt="footer1" />
               <div className="inset-0 absolute">
-                <div
-                  className="mt-16 flex justify-center"
-                >
+                <div className="mt-16 flex justify-center">
                   <Image src={flowers} alt="flowers" />
                 </div>
                 <div
@@ -126,7 +119,7 @@ export default function User() {
                 >
                   <p className="cormorant text-center text-white">
                     <i>
-                    &quot;Dan segala sesuatu Kami jadikan berpasang-
+                      &quot;Dan segala sesuatu Kami jadikan berpasang-
                       <br />
                       pasangan supaya kamu mengingat kebesaran
                       <br />
@@ -145,9 +138,7 @@ export default function User() {
               <Image src={flower4} alt="flower4" />
             </div>
             <div className="-mt-56 absolute mx-12">
-              <div
-                className="z-50"
-              >
+              <div className="z-50">
                 <p className="cormorant font-[600] text-[16px] text-[#5B5B5B]   text-center">
                   <i>
                     Assalamu&apos;alaikum Warahmatullahi
@@ -156,9 +147,7 @@ export default function User() {
                   </i>
                 </p>
               </div>
-              <p
-                className="cormorant font-[]400 text-[12px] mt-5 text-center"
-              >
+              <p className="cormorant font-[]400 text-[12px] mt-5 text-center">
                 Bermaksud menyempurnakan separuh agama
                 <br />
                 kami, perkenankanlah kami,
@@ -172,19 +161,13 @@ export default function User() {
               >
                 Siti Rukiah
               </p>
-              <p
-                className="text-center cormorant leading-[14.53px] text-[12px]"
-              >
+              <p className="text-center cormorant leading-[14.53px] text-[12px]">
                 Putri ke-2 dari
                 <br />
                 Bpk. Rahmat Maulana & Ibu Ucih
               </p>
               <div className="text-center leading-4 my-12">
-                <p
-                  className="rouge font-[400] text-[32px] mr-36"
-                >
-                  Kiah
-                </p>
+                <p className="rouge font-[400] text-[32px] mr-36">Kiah</p>
                 <p
                   className="pinyon font-[400] text-[48px]"
                   data-aos="zoom-out"
@@ -194,11 +177,7 @@ export default function User() {
                 >
                   &
                 </p>
-                <p
-                  className="rouge font-[400] text-[32px] ml-36"
-                >
-                  Dani
-                </p>
+                <p className="rouge font-[400] text-[32px] ml-36">Dani</p>
               </div>
               <p
                 className="text-center birthstone font-[400] text-[48px]"
@@ -209,9 +188,7 @@ export default function User() {
               >
                 Dani Ramadan
               </p>
-              <p
-                className="cormorant leading-[14.53px] text-[12px] text-center"
-              >
+              <p className="cormorant leading-[14.53px] text-[12px] text-center">
                 Putra ke-2 dari
                 <br />
                 Bpk. Bentong Supendi(Allahuyarham) & Ibu Onih
@@ -225,14 +202,10 @@ export default function User() {
         <div className="relative -mt-[130px]" id="date">
           <Image src={aside} alt="aside" />
           <div className="inset-0 absolute text-center font-[400] mt-10">
-            <p
-              className="rouge text-white text-[32px]"
-            >
+            <p className="rouge text-white text-[32px]">
               Acara akan diselenggarakan
             </p>
-            <p
-              className="atma font-bold text-[#B4B4B4]"
-            >
+            <p className="atma font-bold text-[#B4B4B4]">
               <i>Ahad, 05 . 06 .22</i>
             </p>
             <div
@@ -242,7 +215,7 @@ export default function User() {
               data-aos-delay="50"
               data-aos-duration="3000"
             >
-              <Image src={flower6}  alt="flower6"/>
+              <Image src={flower6} alt="flower6" />
               <div className="inset-0 absolute mt-[65px]">
                 <p className="atma font-[400] text-[32px] text-white">{days}</p>
                 <p
@@ -254,9 +227,7 @@ export default function User() {
               </div>
             </div>
             <div className="flex justify-between mx-16">
-              <div
-                className="leading-6 text-white"
-              >
+              <div className="leading-6 text-white">
                 <p className="atma text-[20px] font-[400]">{hours}</p>
                 <p
                   className="atama text-[20px]
@@ -265,9 +236,7 @@ export default function User() {
                   Jam
                 </p>
               </div>
-              <div
-                className="leading-6 text-white"
-              >
+              <div className="leading-6 text-white">
                 <p className="atma text-[20px] font-[400]">{minutes}</p>
                 <p
                   className="atama text-[20px]
@@ -276,9 +245,7 @@ export default function User() {
                   Menit
                 </p>
               </div>
-              <div
-                className="leading-6 text-white"
-              >
+              <div className="leading-6 text-white">
                 <p className="atma text-[20px] font-[400]">{seconds}</p>
                 <p
                   className="atama text-[20px]
@@ -288,11 +255,9 @@ export default function User() {
                 </p>
               </div>
             </div>
-            <button
-              className="border rounded-3xl mt-5 px-3"
-            >
+            <button className="border rounded-3xl mt-5 px-3">
               <a
-                href="https://calendar.google.com/calendar/u/0/r"
+                href="https://calendar.google.com/event?action=TEMPLATE&tmeid=NGNocXZlYm81bm82MDZ0YzI5NDV1MzJ2MzggcXVycm8ub2ZmaWNpYWxAbQ&tmsrc=qurro.official%40gmail.com"
                 className="flex justify-between items-center"
               >
                 <div
@@ -309,14 +274,12 @@ export default function User() {
           </div>
         </div>
         <div className="relative -mt-1" id="map">
-          <Image src={Header2} alt="header2"/>
+          <Image src={Header2} alt="header2" />
           <div className="inset-0 absolute">
             <div>
               <Image src={flower1} alt="flower1" />
             </div>
-            <p
-              className="rouge font-[400] text-[36px] text-center -mt-[305px] absolute mx-20"
-            >
+            <p className="rouge font-[400] text-[36px] text-center -mt-[305px] absolute mx-20">
               {" "}
               Our Special Day
             </p>
@@ -335,9 +298,9 @@ export default function User() {
                   <p className="roboto font-bold text-[15px]">05 . 06 .22</p>
                   <p className="cormorant text-[15px]">09.00 : 10.00 WIB</p>
                 </div>
-                <Image src={rantai} alt="rantai"/>
+                <Image src={rantai} alt="rantai" />
                 <p className="rouge font-[400] text-[30px] text-[#5B5B5B] mt-4">
-                 Resepsi
+                  Resepsi
                 </p>
                 <p className="roboto font-bold text-[15px]">05 . 06 .22</p>
                 <p className="cormorant text-[15px]">10.00 : Selesai WIB</p>
@@ -363,18 +326,14 @@ export default function User() {
             </div>
           </div>
           <div className="relative -mt-20">
-            <Image src={Footer2} alt="footer2"/>
+            <Image src={Footer2} alt="footer2" />
             <div className="inset-0 absolute">
-              <p
-                className="cormorant font-[400] text-[16px] text-center mx-[26px] text-white mt-9 leading-[19.38px]"
-              >
+              <p className="cormorant font-[400] text-[16px] text-center mx-[26px] text-white mt-9 leading-[19.38px]">
                 Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila
-                Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan do&apos;a restu
-                kepada kedua mempelai.
+                Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan do&apos;a
+                restu kepada kedua mempelai.
               </p>
-              <p
-                className="cormorant text-[#D3D3D3] text-center mt-5 text-[16px]"
-              >
+              <p className="cormorant text-[#D3D3D3] text-center mt-5 text-[16px]">
                 <i>Wassalamu&apos;alikum Warahmatullahi Wabarakatuh</i>
               </p>
             </div>
